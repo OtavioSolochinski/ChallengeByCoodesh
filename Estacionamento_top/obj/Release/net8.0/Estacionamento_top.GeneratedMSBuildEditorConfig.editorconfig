@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Estacionamento_top
+build_property.RootNamespace = Estacionamento_top
+build_property.ProjectDir = C:\Users\otavi\source\repos\Estacionamento_top\Estacionamento_top\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\otavi\source\repos\Estacionamento_top\Estacionamento_top
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/ConfirmacaoSaida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cQ29uZmlybWFjYW9TYWlkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/CriacaoTabela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cQ3JpYWNhb1RhYmVsYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/DestruindoTabela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cRGVzdHJ1aW5kb1RhYmVsYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/HistoricoVeiculos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cSGlzdG9yaWNvVmVpY3Vsb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/MarcarEntrada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cTWFyY2FyRW50cmFkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/MarcarSaida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cTWFyY2FyU2FpZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/ResultadoBusca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cUmVzdWx0YWRvQnVzY2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/ResultadoBusca2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cUmVzdWx0YWRvQnVzY2EyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Estacionamento/TabelasPrecos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWNpb25hbWVudG9cVGFiZWxhc1ByZWNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/otavi/source/repos/Estacionamento_top/Estacionamento_top/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mq1ycpezx9

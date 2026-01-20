@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Estacionamento_top</title>
+    <style>
+        body { font-family: Arial; margin:0; padding:0; }
+        header, footer { background:#eee; padding:10px; text-align:center; }
+        nav a { margin:0 10px; text-decoration:none; color:#000; }
+        main { padding:20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estacionamento_top</h1>
+        <nav>
+            
+            <a asp-controller="Estacionamento" asp-action="Index">Estacionamento</a>
+            <a asp-controller="Estacionamento" asp-action="HistoricoVeiculos">Histórico de Veiculos</a>
+            <a asp-controller="Estacionamento" asp-action="TabelasPrecos">Tabelas de Preços</a>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>

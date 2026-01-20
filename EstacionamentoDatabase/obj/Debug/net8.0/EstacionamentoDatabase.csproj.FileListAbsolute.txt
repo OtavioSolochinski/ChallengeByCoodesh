@@ -1,0 +1,12 @@
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\bin\Debug\net8.0\EstacionamentoDatabase.deps.json
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\bin\Debug\net8.0\EstacionamentoDatabase.dll
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\bin\Debug\net8.0\EstacionamentoDatabase.pdb
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\EstacionamentoDatabase.csproj.AssemblyReference.cache
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\EstacionamentoDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\EstacionamentoDatabase.AssemblyInfoInputs.cache
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\EstacionamentoDatabase.AssemblyInfo.cs
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\EstacionamentoDatabase.csproj.CoreCompileInputs.cache
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\EstacionamentoDatabase.dll
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\refint\EstacionamentoDatabase.dll
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\EstacionamentoDatabase.pdb
+C:\Users\otavi\source\repos\Estacionamento_top\EstacionamentoDatabase\obj\Debug\net8.0\ref\EstacionamentoDatabase.dll

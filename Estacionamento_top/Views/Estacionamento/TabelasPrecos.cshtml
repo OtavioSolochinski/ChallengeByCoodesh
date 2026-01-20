@@ -1,0 +1,45 @@
+﻿@using EstacionamentoDatabase.Entidades
+@model List<TabelaPreco>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col sm:flex-row gap-4 mb-8 justify-center">
+        <a asp-action="CriacaoTabela" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold">Criar Tabela</a>
+        <a asp-action="DestruindoTabela" class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold">Deletar Tabela</a>
+    </div>
+    <div class="flex h-[10vh] w-[100vw] justify-center items-center">
+        <h2 class="text-xl">Tabelas de preços</h2>
+    </div>
+    <table class="w-full border-collapse">
+        <thead class="bg-gray-100">
+            <tr>
+                <th class="px-6 py-3 text-left font-semibold">ID</th>
+                <th class="px-6 py-3 text-left font-semibold">Data Início</th>
+                <th class="px-6 py-3 text-left font-semibold">Data Fim</th>
+                <th class="px-6 py-3 text-left font-semibold">Valor Hora Inicial</th>
+                <th class="px-6 py-3 text-left font-semibold">Valor Hora Adicional</th>
+            </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+            @foreach (var tabela in Model)
+            {
+                <tr>
+                    <td class="px-6 py-3">@tabela.id</td>
+                    <td class="px-6 py-3">@tabela.data_inicio</td>
+                    <td class="px-6 py-3">@tabela.data_fim</td>
+                    <td class="px-6 py-3">R$ @tabela.valor_hora_inicial</td>
+                    <td class="px-6 py-3">R$ @tabela.valor_hora_adicional</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

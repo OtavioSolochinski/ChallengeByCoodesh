@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<main class="flex justify-center items-center h-[80vh]">
+    <form asp-controller="Estacionamento" asp-action="EntradaMarcada" method="post" class="flex flex-col items-center justify-around h-[150px] w-[300px]">
+        <p class="text-lxl">Número da placa</p>
+        <input maxlength="7" type="text" name="placa" placeholder="Digite a placa do carro" class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500" />
+        <button type="submit" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold">Marcar Entrada</button>
+    </form>
+</main>
+</html>

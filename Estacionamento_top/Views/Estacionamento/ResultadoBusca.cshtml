@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Resultado da Busca";
+}
+
+<div class="max-w-md mx-auto mt-10 p-6 bg-white rounded shadow">
+    @if (ViewBag.Mensagem != null)
+    {
+        <p class="text-red-500 font-semibold">@ViewBag.Mensagem</p>
+    }
+    else
+    {
+        <h2 class="text-xl font-bold mb-4">Veículo encontrado</h2>
+        <p><strong>Placa:</strong> @ViewBag.Placa</p>
+        <p><strong>Entrada:</strong> @ViewBag.Entrada</p>
+        <p><strong>Saída:</strong> @ViewBag.Saida</p>
+        <p><strong>Tempo:</strong> @ViewBag.Tempo horas</p>
+        <p><strong>Valor:</strong> R$ @ViewBag.Valor</p>
+    }
+</div>

@@ -1,0 +1,52 @@
+﻿@using EstacionamentoDatabase.Entidades
+@model List<Veiculo>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen ">
+    <div class="flex h-[10vh] w-[100vw] justify-center items-center">
+        <h2 class="text-xl">Historico de todos os Veiculos</h2>
+    </div>
+    <div class="mb-8 max-w-md mx-auto">
+        <form asp-action="BuscarVeiculo" method="post">
+            <input name="placa"
+                   maxlength="7"
+                   placeholder="Buscar por placa..."
+                   class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500" />
+        </form>
+    </div>
+
+    <div class="bg-white rounded-lg shadow">
+        <table class="w-full">
+            <thead class="bg-gray-100">
+                <tr>
+                    <th class="px-6 py-3 text-left font-semibold">Placa</th>
+                    <th class="px-6 py-3 text-left font-semibold">Entrada</th>
+                    <th class="px-6 py-3 text-left font-semibold">Saída</th>
+                    <th class="px-6 py-3 text-left font-semibold">Tempo</th>
+                    <th class="px-6 py-3 text-left font-semibold">Valor Cobrado</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+                @foreach (var veiculo in Model)
+                {
+                    <tr>
+                        <td class="px-6 py-3">@veiculo.placa</td>
+                        <td class ="px-6 py-3">@veiculo.data_hora_entrada</td>
+                        <td class="px-6 py-3">@veiculo.data_hora_saida</td>
+                        <td class="px-6 py-3">@veiculo.tempo horas</td>
+                        <td class="px-6 py-3">@veiculo.valor_cobrado R$</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

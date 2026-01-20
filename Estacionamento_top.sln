@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estacionamento_top", "Estacionamento_top\Estacionamento_top.csproj", "{8EDB1DF0-003B-4E31-8CC2-1A358C082315}"
+	ProjectSection(ProjectDependencies) = postProject
+		{304928B4-F07B-4CF4-89E0-B787BDB05E63} = {304928B4-F07B-4CF4-89E0-B787BDB05E63}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstacionamentoDatabase", "EstacionamentoDatabase\EstacionamentoDatabase.csproj", "{304928B4-F07B-4CF4-89E0-B787BDB05E63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EDB1DF0-003B-4E31-8CC2-1A358C082315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDB1DF0-003B-4E31-8CC2-1A358C082315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDB1DF0-003B-4E31-8CC2-1A358C082315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDB1DF0-003B-4E31-8CC2-1A358C082315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304928B4-F07B-4CF4-89E0-B787BDB05E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304928B4-F07B-4CF4-89E0-B787BDB05E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304928B4-F07B-4CF4-89E0-B787BDB05E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304928B4-F07B-4CF4-89E0-B787BDB05E63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F16891A5-7C19-4F1B-89EB-E2C23EC3621B}
+	EndGlobalSection
+EndGlobal

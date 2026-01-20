@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<main class="flex justify-center items-center h-[70vh]">
+    <form asp-controller="Estacionamento" asp-action="CriarTabela" method="post"
+          class="flex flex-col gap-3 bg-white border rounded-md p-4 w-[300px] mx-auto">
+
+        <h2 class="text-lg font-semibold text-gray-700 text-center">Criar Tabela de Preços</h2>
+
+        <input type="date" name="datainicio" placeholder="Data início"
+               class="px-3 py-2 border rounded focus:ring-2 focus:ring-blue-500" />
+
+        <input type="date" name="datafim" placeholder="Data fim"
+               class="px-3 py-2 border rounded focus:ring-2 focus:ring-blue-500" />
+
+        <input type="number" name="horainicial" placeholder="Valor hora inicial"
+               class="px-3 py-2 border rounded focus:ring-2 focus:ring-blue-500" />
+
+        <input type="number" name="horaadicional" placeholder="Valor hora adicional"
+               class="px-3 py-2 border rounded focus:ring-2 focus:ring-blue-500" />
+
+        <button type="submit"
+                class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded font-medium">
+            Criar
+        </button>
+    </form>
+
+
+
+
+</main>
+</html>
